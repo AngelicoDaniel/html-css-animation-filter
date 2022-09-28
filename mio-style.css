@@ -85,3 +85,14 @@
 .ex-8-img{
   transition: 1s;
 }
+
+/* Esercizio - 9 */
+
+.ex-9-img:hover{
+  transform: scale(1.5);
+  border-radius: 20px;
+}
+
+.ex-9-img{
+  transition: 1s;
+}
