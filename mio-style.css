@@ -150,3 +150,41 @@
       transform: rotate(0deg);
     }  
 }
+
+/* Esercizio - 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: wigglewiggletop;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes wigglewiggletop {
+  0% {
+    left: 10%;
+}
+  50% {
+    left: 60%
+}
+  100% {
+    left: 10%;
+}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: wigglewigglebottom;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes wigglewigglebottom {
+  0% {
+    right: 10%;
+}
+  50% {
+    right: 60%
+}
+  100% {
+    right: 10%;
+}
+}
